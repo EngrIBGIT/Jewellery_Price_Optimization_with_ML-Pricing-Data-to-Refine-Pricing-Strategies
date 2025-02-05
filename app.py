@@ -15,9 +15,6 @@ try:
 except FileNotFoundError:
     st.error("🔴 Error: Model file 'jewelry_price_model.pkl' not found. Please upload the correct model.")
 
-# Streamlit UI Setup
-st.set_page_config(page_title="Jewelry Price Prediction", layout="wide")
-
 # ---- Header ----
 st.image("jewelry_logo.png", width=250)  # Ensure this file exists in the correct directory
 st.title("💎 Jewelry Price Prediction App")
