@@ -7,9 +7,9 @@ from sklearn.preprocessing import StandardScaler
 
 # Load the trained model
 try:
-    model = pickle.load(open("best_model.pkl", "rb"))
+    model = pickle.load(open("jewelry_price_model.pkl", "rb"))
 except FileNotFoundError:
-    st.error("🔴 Error: Model file 'best_model.pkl' not found. Please upload the correct model.")
+    st.error("🔴 Error: Model file 'jewelry_price_model.pkl' not found. Please upload the correct model.")
 
 # Streamlit UI Setup
 st.set_page_config(page_title="Jewelry Price Prediction", layout="wide")
