@@ -1,0 +1,1 @@
+{"nbformat":4,"nbformat_minor":0,"metadata":{"colab":{"provenance":[],"authorship_tag":"ABX9TyML8t1ojzlQLD4xCKS3ugHO"},"kernelspec":{"name":"python3","display_name":"Python 3"},"language_info":{"name":"python"}},"cells":[{"cell_type":"code","execution_count":null,"metadata":{"id":"xkZNzoj2SIBv"},"outputs":[],"source":["#!/bin/bash\n","pip install -r requirements.txt"]}]}
