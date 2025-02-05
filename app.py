@@ -71,8 +71,3 @@ if uploaded_file:
 
 # ---- Footer ----
 st.write("🔗 **Developed by YourName** | [GitHub](https://github.com/YourRepo)")
-
-if __name__ == "__main__":
-    import os
-    port = int(os.environ.get("PORT", 8501))  # Use default Streamlit port
-    st.run()
