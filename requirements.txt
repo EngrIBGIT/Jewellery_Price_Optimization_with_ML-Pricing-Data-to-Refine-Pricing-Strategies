@@ -1,1 +1,16 @@
-{"nbformat":4,"nbformat_minor":0,"metadata":{"colab":{"provenance":[],"authorship_tag":"ABX9TyMFCyjyvOqzzVwi7hcoFVUG"},"kernelspec":{"name":"python3","display_name":"Python 3"},"language_info":{"name":"python"}},"cells":[{"cell_type":"code","execution_count":null,"metadata":{"id":"eRPerwmiWBT-"},"outputs":[],"source":["streamlit\n","pandas\n","numpy\n","scikit-learn\n","matplotlib\n","seaborn\n","plotly\n","xgboost\n","catboost\n","gunicorn\n","flask\n","mlflow\n","openpyxl\n","fpdf\n","python-docx\n","Pillow"]}]}
+streamlit
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+plotly
+xgboost
+catboost
+gunicorn
+flask
+mlflow
+openpyxl
+fpdf
+python-docx
+Pillow
