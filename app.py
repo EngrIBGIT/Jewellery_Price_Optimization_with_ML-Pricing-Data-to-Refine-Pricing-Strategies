@@ -1,4 +1,8 @@
 import streamlit as st
+
+# ✅ Set page configuration as the first Streamlit command
+st.set_page_config(page_title="Jewelry Price Prediction", layout="wide")
+
 import pandas as pd
 import numpy as np
 import pickle
