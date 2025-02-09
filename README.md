@@ -1,202 +1,193 @@
-# Jewellery_Price_Optimization_with_ML-Pricing-Data-to-Refine-Pricing-Strategies
+# **Jewellery_Price_Optimization_with_ML-Pricing-Data-to-Refine-Pricing-Strategies**
 
 
-💎 Jewelry Price Prediction - Machine Learning App
+## **Jewelry Price Prediction - Machine Learning App**
 
-🚀 Deployed on Render | 📊 Interactive Dashboard | 📦 Bulk Predictions
 
-📌 Project Overview
+## **Project Overview**
 This project aims to predict jewelry prices using machine learning models. It leverages historical sales data, competitor pricing, and customer demographics to build an AI-driven pricing strategy. The model helps jewelry businesses optimize pricing for maximum profitability while remaining competitive.
 
-✅ Core Features
-Single Prediction: Enter jewelry attributes and get an estimated price.
+### **Core Features**
+**Single Prediction**: Enter jewelry attributes and get an estimated price.
 
-Bulk Predictions: Upload CSV/Excel files for multiple predictions.
+**Bulk Predictions**: Upload CSV/Excel files for multiple predictions.
 
-Data Visualization: Interactive dashboard for insights.
+**Data Visualization**: Interactive dashboard for insights.
 
-Export Predictions: Save results in CSV, Excel, PDF, and Word formats.
+**Export Predictions**: Save results in CSV, Excel, PDF, and Word formats.
 
-User-Friendly UI: Beautiful Streamlit interface designed for a jewelry store.
+**User-Friendly UI**: Beautiful Streamlit interface designed for a jewelry store.
 
-📊 Problem Statement
-Gemineye Emporium, a growing jewelry business, faces pricing challenges due to rapid expansion. Key issues include:
+## **Problem Statement**
+Gemineye Emporium, a growing jewelry business, faces pricing challenges due to rapid expansion. 
 
-Market Dynamics: Consumer preferences and trends change frequently.
+## The Key issues include:
 
-Competitive Pricing: Setting prices to attract customers while maintaining profitability.
+- **Market Dynamics**: Consumer preferences and trends change frequently.
 
-Cost Management: Balancing material costs, craftsmanship, and logistics.
+- **Competitive Pricing**: Setting prices to attract customers while maintaining profitability.
 
-The goal is to develop a machine learning model that predicts optimal jewelry prices based on various attributes.
+- **Cost Management**: Balancing material costs, craftsmanship, and logistics.
 
-📂 Dataset Information
+The goal is to develop a `machine learning` model that predicts optimal jewelry prices based on various attributes.
+
+## **Dataset Information**
+
 The dataset contains details about jewelry orders, including:
 
-Feature	Description
-Category	Type of jewelry (Necklace, Ring, etc.)
-Brand_ID	Unique identifier for brands
-Target_Gender	Intended gender for the jewelry
-Main_Color	Primary color of the jewelry piece
-Main_Metal	Main metal used (Gold, Silver, etc.)
-Main_Gem	Gemstone type (Diamond, Ruby, etc.)
-Order Month	Month in which the order was placed
-Order Day	Day of the month when the order was placed
-Price (Target)	The jewelry price in USD
-🛠️ Tech Stack
+The following are the feature	description
+- `Category`:	Type of jewelry (Necklace, Ring, etc.)
+- `Brand_ID`:	Unique identifier for brands
+- `Target_Gender`:	Intended gender for the jewelry
+- `Main_Color`:	Primary color of the jewelry piece
+- `Main_Metal`:	Main metal used (Gold, Silver, etc.)
+- `Main_Gem`:	Gemstone type (Diamond, Ruby, etc.)
+- `Order Month`:	Month in which the order was placed
+- `Order Day`:	Day of the month when the order was placed
+- `Price (Target)`:	The jewelry price in USD
+
+## **Tech Stack**
 The project is built using:
 
-Python 🐍
+- **`Python`** 🐍
 
-Machine Learning Models: Linear Regression, Random Forest, XGBoost, CatBoost, Neural Networks
+- **`Machine Learning Models`**: Catboost Regressor, Linear Regression, Extra-Trees, Decision Trees, Adaboost Regressor
+  
+- **`Data Preprocessing`**: Pandas, NumPy, Scikit-Learn
 
-Data Preprocessing: Pandas, NumPy, Scikit-Learn
+= **`Visualization`**: Matplotlib, Seaborn, Plotly
 
-Visualization: Matplotlib, Seaborn, Plotly
+## **Experiment Tracking**: `MLflow`
 
-Experiment Tracking: MLflow
+## **Deployment**: `Streamlit, Render, GitHub`
 
-Deployment: Streamlit, Render, GitHub
+- Machine Learning Workflow (CRISP-DM Approach)
 
-📈 Machine Learning Workflow (CRISP-DM Approach)
-1️⃣ Business Understanding
-Define pricing challenges for the jewelry market.
+1. Business Understanding
+- Define pricing challenges for the jewelry market.
 
-Collaborate with stakeholders to align business goals with AI-driven pricing.
+- Collaborate with stakeholders to align business goals with AI-driven pricing.
 
-2️⃣ Data Collection & Preprocessing
-Collect historical sales data, competitor pricing, and customer demographics.
+2. Data Collection & Preprocessing
+- Collect historical sales data, competitor pricing, and customer demographics.
 
-Handle missing values, remove outliers, and encode categorical features.
+- Handle missing values, remove outliers, and encode categorical features.
 
-3️⃣ Exploratory Data Analysis (EDA)
-Analyze seasonality, pricing trends, and consumer preferences.
+3. Exploratory Data Analysis (EDA)
+- Analyze seasonality, pricing trends, and consumer preferences.
 
-Identify key features affecting jewelry prices.
+- Identify key features affecting jewelry prices.
 
-4️⃣ Feature Engineering
-Create new features to improve model accuracy.
+4. Feature Engineering
+- Create new features to improve model accuracy.
 
-Scale numeric features and encode categorical variables.
+- Scale numeric features and encode categorical variables.
 
-5️⃣ Model Training & Evaluation
-Implemented Models:
+5. Model Training & Evaluation
+Implemented Models include :
 
-Linear Regression
+- Linear Regression
 
-Support Vector Machine
+- Decision Tree
 
-Polynomial Regression
+ -Extra Trees
 
-Gradient Boosting
+- AdaBoost
 
-XGBoost
+- CatBoost
 
-Decision Tree
+**Evaluation Metrics**:
 
-Random Forest
+- Mean Absolute Error (MAE)
 
-Extra Trees
+- Root Mean Squared Error (RMSE)
 
-AdaBoost
+- R² Score
 
-CatBoost
+## **Hyperparameter Tuning using GridSearchCV for performance improvement**.
 
-Neural Networks
-
-Evaluation Metrics:
-
-Mean Absolute Error (MAE)
-
-Mean Squared Error (MSE)
-
-Root Mean Squared Error (RMSE)
-
-R² Score
-
-Hyperparameter Tuning using GridSearchCV for performance improvement.
-
-6️⃣ Experiment Tracking with MLflow
+6. Experiment Tracking with MLflow
 Track different models and hyperparameter tuning results.
 
 Compare model performance and log metrics.
 
-7️⃣ Model Deployment
-Deploy the best model using Streamlit & Render.
+7. Model Deployment
+Deploying the best model using Streamlit & Render.
 
-Create an interactive UI for users to enter jewelry details and get predictions.
+Created an interactive UI for users to enter jewelry details and get predictions.
 
-📌 How to Run the Project Locally
-🔹 1. Clone the Repository
-bash
-Copy
-git clone https://github.com/YourUsername/jewelry-price-prediction.git
-cd jewelry-price-prediction
-🔹 2. Install Dependencies
-bash
-Copy
-pip install -r requirements.txt
-🔹 3. Run the Streamlit App
-bash
-Copy
-streamlit run app.py
-🚀 Deployment on Render
-The project is hosted on Render, follow these steps to deploy:
+## **How to Run the Project Locally**
+ 1. Clone the Repository
 
-Push the project to GitHub.
+- git clone [https://github.com/YourUsername/jewelry-price-prediction](https://github.com/EngrIBGIT/Jewellery_Price_Optimization_with_ML-Pricing-Data-to-Refine-Pricing-Strategies).git
+- cd jewelry-price-prediction
 
-Create a new Web Service on Render.
+2. Install Dependencies
 
-Connect to your GitHub repository.
+- pip install -r requirements.txt
 
-Set the following configurations:
+3. Run the Streamlit App
 
-Python Version: 3.9
+- streamlit run app.py
+
+## Deployment on Streamlit and Render
+The project is hosted on Streamlit and Render, follow these steps to deploy:
+
+- Push the project to GitHub.
+
+- Create a new Web Service on Render.
+
+- Connect to GitHub repository.
+
+- Set the following configurations:
+
+**`Python Version: 3.9`**
 
 Start Command: gunicorn -w 4 -k uvicorn.workers.UvicornWorker app:app
 
-Deploy and get your live URL! 🎉
+Deploy and get live URL!
 
-🔗 Live Demo: Jewelry Price Prediction App
+**Live Demo**: Jewelry Price Prediction App
 
-📊 Dashboard Features
-📤 Upload CSV/Excel files for bulk predictions.
+### Dashboard Features
+- Upload CSV/Excel files for bulk predictions.
 
-📈 Interactive Price Distribution visualization.
+- Interactive Price Distribution visualization.
 
-📥 Download predictions in CSV, Excel, PDF, and Word formats.
+- Download predictions in CSV, Excel, PDF, and Word formats.
 
-📌 File Structure
-bash
-Copy
-jewelry-price-prediction/
+## **File Structure**
+
+## jewelry-price-prediction/
+
 │── app.py                # Streamlit app for UI & predictions  
 │── best_model.pkl        # Saved ML model  
 │── requirements.txt      # Project dependencies  
 │── runtime.txt           # Python runtime version  
 │── setup.sh              # Setup script for deployment  
 │── Procfile              # Render deployment configuration  
-│── README.md             # Project documentation  
-📢 Insights & Recommendations
-Leverage AI for Competitive Pricing:
+│── README.md             # Project documentation
 
-AI-based pricing helps adjust prices dynamically to market trends.
+## **Insights & Recommendations**
+- Leverage AI for Competitive Pricing:
 
-Feature Importance Analysis:
+- AI-based pricing helps adjust prices dynamically to market trends.
 
-Jewelry category, brand, and gemstones significantly influence prices.
+- Feature Importance Analysis:
 
-Implement Customer Segmentation:
+- Jewelry category, brand, and gemstones significantly influence prices.
 
-Different pricing strategies for luxury vs. budget jewelry can optimize sales.
+- Implement Customer Segmentation:
 
-🔗 Additional Resources
-📌 GitHub Repo: Jewelry Price Prediction
+- Different pricing strategies for luxury vs. budget jewelry can optimize sales.
 
-📌 Live Demo: Render Deployment
+## Additional Resources
+ GitHub Repo: Jewelry Price Prediction
 
-🎯 Final Thoughts
-This project demonstrates how machine learning can optimize jewelry pricing by leveraging data-driven insights. 🚀
+Live Demo: Render Deployment
+
+### Final Thoughts
+This project demonstrates how machine learning can optimize jewelry pricing by leveraging data-driven insights.
 
 If you found this useful, don't forget to ⭐️ Star this repository on GitHub!
 
