@@ -119,7 +119,7 @@ Created an interactive UI for users to enter jewelry details and get predictions
 ## **How to Run the Project Locally**
  1. Clone the Repository
 
-- git clone [https://github.com/YourUsername/jewelry-price-prediction](https://github.com/EngrIBGIT/Jewellery_Price_Optimization_with_ML-Pricing-Data-to-Refine-Pricing-Strategies).git
+- git clone [Jewelry Price Prediction](https://github.com/EngrIBGIT/Jewellery_Price_Optimization_with_ML-Pricing-Data-to-Refine-Pricing-Strategies)
 - cd jewelry-price-prediction
 
 2. Install Dependencies
@@ -168,6 +168,29 @@ Deploy and get live URL!
 │── Procfile              # Render deployment configuration  
 │── README.md             # Project documentation
 
+
+### **Explanation of Files**
+1. **`app.py`**:  
+   - The main Streamlit application file that handles the user interface (UI) and predictions.
+
+2. **`best_model.pkl`**:  
+   - A serialized file containing the trained machine learning model for jewelry price prediction.
+
+3. **`requirements.txt`**:  
+   - Lists all the Python dependencies required to run the project.
+
+4. **`runtime.txt`**:  
+   - Specifies the Python runtime version for deployment.
+
+5. **`setup.sh`**:  
+   - A shell script for setting up the environment during deployment.
+
+6. **`Procfile`**:  
+   - Configuration file for deploying the app on platforms like Render.
+
+7. **`README.md`**:  
+   - Documentation file that provides an overview of the project, setup instructions, and usage guidelines.
+
 ## **Insights & Recommendations**
 - Leverage AI for Competitive Pricing:
 
@@ -182,9 +205,11 @@ Deploy and get live URL!
 - Different pricing strategies for luxury vs. budget jewelry can optimize sales.
 
 ## Additional Resources
- GitHub Repo: Jewelry Price Prediction
+Notebook: [Open in Google Colab](https://colab.research.google.com/drive/15efNUBC215IPPNNHwgYZc_CNXCnlBch7?usp=sharing)
 
-Live Demo: Render Deployment
+GitHub Repo: [Jewelry Price Prediction](https://github.com/EngrIBGIT/Jewellery_Price_Optimization_with_ML-Pricing-Data-to-Refine-Pricing-Strategies)
+
+Live Demo: [Jewel Price Prediction App](https://jewelpriceprediction.streamlit.app/)
 
 ### Final Thoughts
 This project demonstrates how machine learning can optimize jewelry pricing by leveraging data-driven insights.
