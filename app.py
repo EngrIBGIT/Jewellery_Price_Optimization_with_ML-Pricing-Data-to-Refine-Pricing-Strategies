@@ -70,4 +70,4 @@ if uploaded_file:
     st.plotly_chart(fig)
 
 # ---- Footer ----
-st.write("🔗 **Developed by Ibrahim Ismaila** | [GitHub](https://github.com/EngrIBGIT/Jewellery_Price_Optimization_with_ML-Pricing-Data-to-Refine-Pricing-Strategies/)
+st.write("🔗 **Developed by Ibrahim Ismaila** | [GitHub](https://github.com/EngrIBGIT/Jewellery_Price_Optimization_with_ML-Pricing-Data-to-Refine-Pricing-Strategies")
